@@ -1,0 +1,10 @@
+Guava是一个由Google开发的Java库，它包含了很多Google核心的Java工具，用于减少编程的复杂性，提高编程效率。Guava主要包括以下几个包：
+
+com.google.common.base：提供基本的工具，如预条件检查（Preconditions），字符串处理（Strings），对象处理（Objects）等。
+com.google.common.collect：提供了丰富的Java集合库，如不可变集合（Immutable Collections），新的集合类型（Multiset，Multimap，BiMap，Table）等。
+com.google.common.cache：提供了强大的缓存功能。
+com.google.common.util.concurrent：提供了并发工具，如ListenableFuture，Service，Monitor等。
+com.google.common.io：提供了I/O操作的工具，如文件操作，流操作等。
+com.google.common.hash：提供了哈希函数和哈希码操作的工具。
+com.google.common.graph：提供了图数据结构的工具。
+对于字符串处理，Guava提供了com.google.common.base.Strings类，包含了很多有用的方法，如nullToEmpty，emptyToNull，isNullOrEmpty，padStart，padEnd，repeat等。
